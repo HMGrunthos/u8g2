@@ -624,6 +624,9 @@ uint8_t *u8g2_m_1_1_f(uint8_t *page_cnt);
 uint8_t *u8g2_m_48_30_1(uint8_t *page_cnt);
 uint8_t *u8g2_m_48_30_2(uint8_t *page_cnt);
 uint8_t *u8g2_m_48_30_f(uint8_t *page_cnt);
+uint8_t *u8g2_m_32_7_1(uint8_t *page_cnt);
+uint8_t *u8g2_m_32_7_2(uint8_t *page_cnt);
+uint8_t *u8g2_m_32_7_f(uint8_t *page_cnt);
 
 /* u8g2_d_memory.c generated code end */
 
@@ -1394,6 +1397,9 @@ void u8g2_Setup_gu800_128x64_f(u8g2_t *u8g2, const u8g2_cb_t *rotation, u8x8_msg
 void u8g2_Setup_a2printer_384x240_1(u8g2_t *u8g2, const u8g2_cb_t *rotation, u8x8_msg_cb byte_cb, u8x8_msg_cb gpio_and_delay_cb);
 void u8g2_Setup_a2printer_384x240_2(u8g2_t *u8g2, const u8g2_cb_t *rotation, u8x8_msg_cb byte_cb, u8x8_msg_cb gpio_and_delay_cb);
 void u8g2_Setup_a2printer_384x240_f(u8g2_t *u8g2, const u8g2_cb_t *rotation, u8x8_msg_cb byte_cb, u8x8_msg_cb gpio_and_delay_cb);
+void u8g2_Setup_futaba_vfd_gp1287ai_256x50_1(u8g2_t *u8g2, const u8g2_cb_t *rotation, u8x8_msg_cb byte_cb, u8x8_msg_cb gpio_and_delay_cb);
+void u8g2_Setup_futaba_vfd_gp1287ai_256x50_2(u8g2_t *u8g2, const u8g2_cb_t *rotation, u8x8_msg_cb byte_cb, u8x8_msg_cb gpio_and_delay_cb);
+void u8g2_Setup_futaba_vfd_gp1287ai_256x50_f(u8g2_t *u8g2, const u8g2_cb_t *rotation, u8x8_msg_cb byte_cb, u8x8_msg_cb gpio_and_delay_cb);
 
 /* u8g2_d_setup.c generated code end */
 
